@@ -1,11 +1,14 @@
 {
-  "name": "day-one",
+  "name": "Advent-Ryan-Burke",
   "version": "1.0.0",
-  "description": "My day one attempt for advent of code",
-  "main": "src/index.js",
+  "description": "My day two attempt for advent of code",
+  "main": "day-one/src/index.js",
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
-    "test": "jest --watchAll"
+    "run:one": "nodemon --exec babel-node day-one/src/index.js",
+    "run:two": "nodemon --exec babel-node day-two/src/index.js",
+    "run:temp": "nodemon --exec babel-node day-two/tools/parser.js",
+    "test": "jest --watch"
   },
   "keywords": [
     "Advent"
