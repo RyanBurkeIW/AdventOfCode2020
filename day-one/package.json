@@ -1,0 +1,22 @@
+{
+  "name": "day-one",
+  "version": "1.0.0",
+  "description": "My day one attempt for advent of code",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "jest --watchAll"
+  },
+  "keywords": [
+    "Advent"
+  ],
+  "author": "Ryan Burke",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  }
+}
